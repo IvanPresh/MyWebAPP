@@ -1,0 +1,14 @@
+@MyWebAPP_HostAddress = https://localhost:7139
+
+GE {{MyWebAPP_HostAddress}}/Books
+Accept: application/json
+
+###
+
+GET {{MyWebAPP_HostAddress}}/api/books/Get-Books
+
+##
+GET {{MyWebAPP_HostAddress}}/api/books/Get-Book/0
+
+###
+
